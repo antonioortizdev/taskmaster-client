@@ -1,7 +1,35 @@
-# Vue 3 + Vite
+# Taskmaster Web Client
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Made with Vite, Vue3 & Vuex
 
-## Recommended IDE Setup
+## Requirements
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Node v18.12.1 & NPM v8.19.2
+
+## Installation and use
+
+Execute the following commands in a Bash shell
+
+```bash
+git clone https://github.com/antonioortizdev/taskmaster-client
+
+cd ./taskmaster-client
+
+cp .env.example .env.local
+
+npm i
+
+npm run dev
+```
+
+## Testing
+
+You can run automated tests with:
+
+```bash
+cd ./taskmaster-client
+
+npm run test
+```
+
+
