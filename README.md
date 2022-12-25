@@ -24,12 +24,13 @@ npm run dev
 
 ## Testing
 
-You can run automated tests with:
+This app uses Jest to exectute automated tests.
+You can run those tests with:
 
 ```bash
 cd ./taskmaster-client
 
-npm run test
+npm test
 ```
 
 
